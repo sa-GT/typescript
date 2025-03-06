@@ -1,0 +1,32 @@
+function oddoreven(num:number){
+    if(num%2==0){
+        console.log(`number is even ${num}`);
+    }else{
+        console.log(`number is odd ${num}`);
+    }
+}
+oddoreven(4)
+// Filter Expensive Products from an Array :
+// You are given an array of product prices. print out  all prices that are higher than a given threshold price, without using a function.
+
+let products:number[]=[4,5,6]
+let product:number=2
+for (let index = 0; index < products.length; index++) {
+    if(products[index] > product ){
+        console.log(`Higher ${products[index]}`);
+    }
+}
+
+// Sum All Elements in an Array
+// You are given an array of numbers. Iterate through the array and print the sum of all elements , without using a function.
+
+function sumnum(){
+    let po: number[] = [1,2,3,4,5,6]
+    let sum:number = 0
+    for (let index = 0; index < po.length; index++) {
+        sum += po[index];
+    }
+    console.log(sum);
+}
+
+sumnum()
